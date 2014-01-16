@@ -4,14 +4,17 @@
     id        = "com.phonegap.example"
     version   = "1.0.0">
 
-<name>PhoneGap Build Application</name>
+<name>PASS User Application</name>
 
 <description>
-A simple PhoneGap Build application.
+A simple PhoneGap Build application for the PASS, a senior design project for UCF EE/CPE students.
 </description>
 
-<author href="https://example.com" email="you@example.com">
-Your Name
+<author href="https://example.com" email="DevinErickson@knights.ucf.edu">
+Devin Erickson
 </author>
+
+<!-- Include the Bluetooth Plugin -->
+<gap:plugin name="com.megster.cordova.bluetoothserial" />
 
 </widget>
